@@ -2,4 +2,4 @@ Component ID,Component Name,Requirement Summary,Current State,Verify State,Retry
 C01,Core State Machine,Base state transitions and validation logic.,PASS,VERIFIED,0,1,None,Initial core logic stable.
 C02,Event Bus,Async messaging and event propagation.,PASS,VERIFIED,0,1,C01,Messaging layer confirmed functional.
 C03,Multi-State Logic,Support for simultaneous states and timing gates.,IN_PROGRESS,NOT_RUN,0,2,C01;C02,"HALTED: Spec violations and reporting error."
-C04,Persistence Layer,Database schema and CRUD operations.,IN_PROGRESS,NOT_RUN,0,2,C01,Initial persistence draft deployed.
+C04,Persistence Layer,Database schema and CRUD operations.,IN_PROGRESS,NOT_RUN,0,2,C01,"Verification suite deployed. Awaiting test results."
